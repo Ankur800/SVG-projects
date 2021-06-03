@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#facebook,
+#instagram,
+#twitter {
+    cursor: pointer;
+}
+
+#facebook-c,
+#insta-c,
+#twitter-c {
+    transition: all ease 1s;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#twitter-icon {
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#facebook:hover #facebook-c {
+    fill: transparent;
+    stroke-width: 2;
+    stroke-dasharray: 10;
+    transform: rotate(160deg);
+}
+
+#facebook:hover #facebook-icon {
+    fill: #3239f3;
+}
+
+#instagram:hover #insta-c {
+    transform: scale(1.2);
+    color: tomato;
+}
+
+#instagram:hover #insta-circle {
+    animation: insta 0.3s ease alternate;
+}
+
+@keyframes insta {
+    to {
+        d: path(
+            'M250 51C245.583 51 242 50.7761 242 50.5C242 50.2239 245.583 50 250 50C254.417 50 258 50.2239 258 50.5C258 50.7761 254.417 51 250 51ZM250 50.1757C247.135 50.1757 244.811 50.3209 244.811 50.5C244.811 50.6791 247.135 50.8243 250 50.8243C252.865 50.8243 255.189 50.6791 255.189 50.5C255.189 50.3209 252.865 50.1757 250 50.1757V50.1757Z'
+        );
+    }
+}
+
+#twitter:hover #twitter-c {
+    fill: transparent;
+}
+
+#twitter:hover #twitter-icon {
+    animation: twitter 1s linear forwards;
+}
+
+@keyframes twitter {
+    50% {
+        transform: rotateY(180deg);
+    }
+    75%,
+    100% {
+        d: path(
+            'M380.706 65C376.712 65 372.845 63.8538 369.521 61.6843C368.509 61.0243 369.088 59.4026 370.26 59.5657C372.526 59.8519 375.072 59.4749 377.373 58.3441C375.257 57.4394 373.564 55.6331 372.816 53.3221C372.682 52.9067 372.786 52.4405 373.103 52.1267C371.403 50.6127 370.347 48.394 370.347 45.98C370.347 45.4153 370.719 44.8938 371.322 44.7845C370.055 42.3828 370.04 39.4087 371.497 36.8423C371.892 36.1469 372.834 36.0746 373.331 36.6885C376.355 40.4519 380.692 42.8736 385.387 43.4629C385.248 40.3857 386.793 37.5701 389.572 36.0315C392.752 34.2683 396.525 34.8037 399.06 37.3455C400.302 37.704 401.509 37.4947 402.832 36.6946C403.589 36.2438 404.522 36.8054 404.522 37.6901C404.522 39.998 402.865 42.3659 401.456 43.606C401.558 49.0818 399.513 54.4776 395.797 58.4933C391.913 62.689 386.554 65 380.706 65Z'
+        );
+        fill: #18daf4;
+    }
+}

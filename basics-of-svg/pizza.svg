@@ -1,0 +1,156 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="500" height="500" fill="#E5E5E5" />
+    <g id="Frame 1">
+        <rect width="500" height="500" fill="white" />
+        <circle id="Ellipse 1" opacity="0.4" cx="247" cy="254" r="200" fill="#BB600C" />
+        <path id="inner"
+            d="M384.514 200.216C351.854 219.372 426.183 23.7481 247.68 86.4405C69.1776 149.133 124.361 228.08 83.2551 244.914C42.1488 261.747 42.7119 416.738 219.525 409.772C396.339 402.806 332.145 363.333 377.193 358.109C422.241 352.885 417.173 181.06 384.514 200.216Z"
+            fill="#FFBE83" />
+        <g id="pepperonies">
+            <g id="pepperoni">
+                <circle id="p-circle" cx="196.5" cy="181.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots">
+                    <circle id="Ellipse 3" cx="185" cy="165" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4" cx="209.5" cy="165" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5" cx="183" cy="192.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6" cx="210.5" cy="183.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7" cx="203.5" cy="203.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+            <g id="pepperoni_2">
+                <circle id="p-circle_2" cx="250.5" cy="254.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots_2">
+                    <circle id="Ellipse 3_2" cx="239" cy="238" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4_2" cx="263.5" cy="238" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5_2" cx="237" cy="265.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6_2" cx="264.5" cy="256.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7_2" cx="257.5" cy="276.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+            <g id="pepperoni_3">
+                <circle id="p-circle_3" cx="353.5" cy="277.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots_3">
+                    <circle id="Ellipse 3_3" cx="342" cy="261" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4_3" cx="366.5" cy="261" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5_3" cx="340" cy="288.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6_3" cx="367.5" cy="279.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7_3" cx="360.5" cy="299.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+            <g id="pepperoni_4">
+                <circle id="p-circle_4" cx="245.5" cy="364.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots_4">
+                    <circle id="Ellipse 3_4" cx="234" cy="348" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4_4" cx="258.5" cy="348" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5_4" cx="232" cy="375.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6_4" cx="259.5" cy="366.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7_4" cx="252.5" cy="386.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+            <g id="pepperoni_5">
+                <circle id="p-circle_5" cx="127.5" cy="307.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots_5">
+                    <circle id="Ellipse 3_5" cx="116" cy="291" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4_5" cx="140.5" cy="291" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5_5" cx="114" cy="318.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6_5" cx="141.5" cy="309.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7_5" cx="134.5" cy="329.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+            <g id="pepperoni_6">
+                <circle id="p-circle_6" cx="321.5" cy="128.5" r="32.5" fill="#AA0909" />
+                <g id="p-dots_6">
+                    <circle id="Ellipse 3_6" cx="310" cy="112" r="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 4_6" cx="334.5" cy="112" rx="3.5" ry="4" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 5_6" cx="308" cy="139.5" rx="7" ry="6.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 6_6" cx="335.5" cy="130.5" r="4.5" fill="#C4C4C4" />
+                    <circle id="Ellipse 7_6" cx="328.5" cy="150.5" r="2.5" fill="#C4C4C4" />
+                </g>
+            </g>
+        </g>
+        <g id="mushrooms">
+            <g id="mushroom">
+                <g id="Component 1">
+                    <rect id="Rectangle 1" x="128.54" y="226.685" width="20" height="45" rx="10"
+                        transform="rotate(-49 128.54 226.685)" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 8" cx="135.429" cy="218.761" rx="29.5" ry="16"
+                        transform="rotate(-49 135.429 218.761)" fill="#C4C4C4" />
+                </g>
+                <g id="Component 2">
+                    <rect id="Rectangle 1_2" x="133.782" y="226.054" width="12.5424" height="32.459" rx="6.27119"
+                        transform="rotate(-49 133.782 226.054)" fill="#8D6969" />
+                    <ellipse id="Ellipse 8_2" cx="138.102" cy="221.084" rx="18.5" ry="11.541"
+                        transform="rotate(-49 138.102 221.084)" fill="#8D6969" />
+                </g>
+            </g>
+            <g id="mushroom_2">
+                <g id="Component 1_2">
+                    <rect id="Rectangle 1_3" x="270.059" y="159.482" width="20" height="45" rx="10"
+                        transform="rotate(54 270.059 159.482)" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 8_3" cx="276.231" cy="167.977" rx="29.5" ry="16"
+                        transform="rotate(54 276.231 167.977)" fill="#C4C4C4" />
+                </g>
+                <g id="Component 2_2">
+                    <rect id="Rectangle 1_4" x="269.496" y="164.731" width="12.5424" height="32.459" rx="6.27119"
+                        transform="rotate(54 269.496 164.731)" fill="#8D6969" />
+                    <ellipse id="Ellipse 8_4" cx="273.366" cy="170.058" rx="18.5" ry="11.541"
+                        transform="rotate(54 273.366 170.058)" fill="#8D6969" />
+                </g>
+            </g>
+            <g id="mushroom_3">
+                <g id="Component 1_3">
+                    <rect id="Rectangle 1_5" x="320.776" y="206.981" width="20" height="45" rx="10"
+                        transform="rotate(-46 320.776 206.981)" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 8_5" cx="328.07" cy="199.427" rx="29.5" ry="16"
+                        transform="rotate(-46 328.07 199.427)" fill="#C4C4C4" />
+                </g>
+                <g id="Component 2_3">
+                    <rect id="Rectangle 1_6" x="326.043" y="206.624" width="12.5424" height="32.459" rx="6.27119"
+                        transform="rotate(-46 326.043 206.624)" fill="#8D6969" />
+                    <ellipse id="Ellipse 8_6" cx="330.617" cy="201.887" rx="18.5" ry="11.541"
+                        transform="rotate(-46 330.617 201.887)" fill="#8D6969" />
+                </g>
+            </g>
+            <g id="mushroom_4">
+                <g id="Component 1_4">
+                    <rect id="Rectangle 1_7" x="180.18" y="395.109" width="20" height="45" rx="10"
+                        transform="rotate(-166 180.18 395.109)" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 8_7" cx="169.992" cy="392.569" rx="29.5" ry="16"
+                        transform="rotate(-166 169.992 392.569)" fill="#C4C4C4" />
+                </g>
+                <g id="Component 2_4">
+                    <rect id="Rectangle 1_8" x="177.238" y="390.726" width="12.5424" height="32.459" rx="6.27119"
+                        transform="rotate(-166 177.238 390.726)" fill="#8D6969" />
+                    <ellipse id="Ellipse 8_8" cx="170.849" cy="389.133" rx="18.5" ry="11.541"
+                        transform="rotate(-166 170.849 389.133)" fill="#8D6969" />
+                </g>
+            </g>
+            <g id="mushroom_5">
+                <g id="Component 1_5">
+                    <rect id="Rectangle 1_9" x="317.79" y="322.902" width="20" height="45" rx="10"
+                        transform="rotate(46.5 317.79 322.902)" fill="#C4C4C4" />
+                    <ellipse id="Ellipse 8_9" cx="325.018" cy="330.519" rx="29.5" ry="16"
+                        transform="rotate(46.5 325.018 330.519)" fill="#C4C4C4" />
+                </g>
+                <g id="Component 2_5">
+                    <rect id="Rectangle 1_10" x="317.917" y="328.18" width="12.5424" height="32.459" rx="6.27119"
+                        transform="rotate(46.5 317.917 328.18)" fill="#8D6969" />
+                    <ellipse id="Ellipse 8_10" cx="322.449" cy="332.956" rx="18.5" ry="11.541"
+                        transform="rotate(46.5 322.449 332.956)" fill="#8D6969" />
+                </g>
+            </g>
+        </g>
+        <g id="peppers">
+            <rect id="pepper" x="298.289" y="282.566" width="6" height="46" transform="rotate(42 298.289 282.566)"
+                fill="#115605" />
+            <rect id="pepper" x="265.737" y="200.889" width="5" height="46" transform="rotate(-34 265.737 200.889)"
+                fill="#115605" />
+            <rect id="pepper" x="225.51" y="135.086" width="4" height="46" transform="rotate(-115.5 225.51 135.086)"
+                fill="#115605" />
+            <rect id="pepper" x="175" y="322.914" width="5" height="46" transform="rotate(-34 175 322.914)"
+                fill="#115605" />
+            <rect id="pepper" x="204.531" y="241.802" width="4" height="60" transform="rotate(36.5 204.531 241.802)"
+                fill="#115605" />
+        </g>
+    </g>
+</svg>

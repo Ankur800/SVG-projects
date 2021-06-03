@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SVGs are cool</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+		
+		a {
+			text-decoration: none;
+			color: white;
+			font-family: Tahoma;
+		}
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav {
+			padding: 10px 20px;
+			background: darkslateblue;
+		}
+
+		.nav {
+			display: flex;
+			align-items: center;
+		}
+		
+		.nav li:not(:first-child) {
+			padding-left: 40px;
+			font-size: 2em;
+		}
+
+		.logo {
+			margin-right: auto;
+		}
+
+		.logo img {
+			width: 200px;
+			height: auto;
+		}
+
+		main {
+			background: url("images/background.svg") no-repeat center center;
+			height: 500px;
+		}
+
+	</style>
+</head>
+<body>
+<nav>
+	<ul class="nav">
+		<li class="logo">
+			<img src="images/hello.svg"/>
+		</li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</nav>
+<main>
+	
+</main>
+</body>
+</html>

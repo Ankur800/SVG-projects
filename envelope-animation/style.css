@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+svg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#letter {
+    animation: moveLetter 2s ease-in-out forwards;
+}
+
+@keyframes moveLetter {
+    to {
+        transform: translateY(100px);
+    }
+}
+
+#tri {
+    animation: tri 2s 2s linear forwards;
+}
+
+@keyframes tri {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+#tri2 {
+    opacity: 0;
+    animation: tri2 2s 2s linear forwards;
+}
+
+@keyframes tri2 {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        d: path(
+            'M43.0837 252.326C38.6625 249.762 40.481 243 45.5917 243H435.333C440.449 243 442.263 249.773 437.832 252.331L245.01 363.609C241.911 365.397 238.092 365.393 234.996 363.598L43.0837 252.326Z'
+        );
+    }
+}
+
+#item {
+    animation: item 0.5s 4.2s ease-in forwards;
+}
+
+@keyframes item {
+    to {
+        transform: translateX(1000px);
+    }
+}

@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#text {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#rect {
+    stroke-dasharray: 50;
+    animation: move 1s ease alternate infinite;
+}
+
+@keyframes move {
+    to {
+        stroke-dashoffset: 50;
+    }
+}

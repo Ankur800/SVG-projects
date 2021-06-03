@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2017 by anonymous (http://jsbin.com/kelidezaxi/2/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.leaves {
+  animation: 3s wind infinite;
+  transform-origin: bottom;
+}
+
+.leaves circle {
+  transition: 1s all;
+}
+
+.leaves:hover circle {
+  fill: brown;
+}
+
+@keyframes wind {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  
+  33% {
+    transform: rotate(7deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  
+}
+</style>
+</head>
+<body>
+<svg height="300" width="250" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 264">
+  <title>simple_tree</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect x="61" y="129" width="43" height="135" fill="#382a16"/>
+      <g class="leaves">
+        <circle cx="61.5" cy="123.5" r="43.5" fill="#4d8436"/>
+        <circle cx="32" cy="92" r="32" fill="#4d8436"/>
+        <circle cx="95.5" cy="64.5" r="64.5" fill="#4d8436"/>
+        <circle cx="110.5" cy="116.5" r="36.5" fill="#4d8436"/>
+      </g>
+    </g>
+  </g>
+  </svg>
+</body>
+</html>
+

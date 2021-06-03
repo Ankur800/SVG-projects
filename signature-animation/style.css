@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#sign {
+    stroke-dasharray: 1564;
+    stroke-dashoffset: 1564;
+    animation: moveSign 5s ease-in-out infinite;
+}
+
+@keyframes moveSign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}

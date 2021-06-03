@@ -1,0 +1,24 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Frame 1">
+        <rect width="500" height="500" fill="white" />
+        <path id="tri"
+            d="M42.8875 233.687C38.4894 236.265 40.3181 243 45.4161 243H435.544C440.645 243 442.471 236.259 438.068 233.684L245.286 120.955C242.165 119.13 238.301 119.132 235.181 120.961L42.8875 233.687Z"
+            fill="#E1FBF9" stroke="black" />
+        <g id="letter">
+            <rect id="Rectangle 1" x="100.5" y="160.5" width="279" height="179" fill="white" stroke="black" />
+            <rect id="Rectangle 2" x="120" y="180" width="120" height="10" rx="5" fill="#E4B9FE" />
+            <rect id="Rectangle 3" x="120" y="200" width="160" height="10" rx="5" fill="#FFB4B4" />
+            <rect id="Rectangle 4" x="120" y="260" width="238" height="10" rx="5" fill="#C4C4C4" />
+            <rect id="Rectangle 6" x="120" y="280" width="238" height="10" rx="5" fill="#C4C4C4" />
+            <rect id="Rectangle 7" x="120" y="300" width="238" height="10" rx="5" fill="#C4C4C4" />
+            <rect id="Rectangle 8" x="122" y="320" width="238" height="10" rx="5" fill="#C4C4C4" />
+            <rect id="Rectangle 5" x="120" y="240" width="238" height="10" rx="5" fill="#C4C4C4" />
+        </g>
+        <path id="envelope"
+            d="M47.5678 244.529C44.235 242.535 40 244.936 40 248.82V456C40 458.761 42.2386 461 45 461H240.5H436C438.761 461 441 458.761 441 456V248.82C441 244.936 436.765 242.535 433.432 244.529L245.636 356.926C242.473 358.819 238.527 358.819 235.364 356.926L47.5678 244.529Z"
+            fill="#E1FBF9" stroke="black" />
+        <path id="tri2"
+            d="M43.0837 252.326C38.6625 249.762 40.481 243 45.5917 243H435.333C440.449 243 442.263 249.773 437.832 252.331L245.01 363.609C241.911 365.397 238.092 365.393 234.996 363.598L43.0837 252.326Z"
+            fill="#E1FBF9" stroke="black" />
+    </g>
+</svg>

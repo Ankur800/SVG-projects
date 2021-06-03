@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<!-- 
+A rx ry x-axis rotation large-arc-flag sweep-flag x y
+-->
+<svg height="300" width="300">
+  <path d="M 50 100
+           A 50 50 0 1 1 100 30
+           Z" 
+        stroke="black"
+        fill="orange"/>
+  <path d="M 50 100
+           A 50 50 0 1 0 100 30
+           Z" 
+        stroke="black"
+        fill="teal"/>
+  <path d="M 50 100
+           A 50 50 0 0 0 100 30
+           Z" 
+        stroke="black"
+        fill="forestgreen"/>
+  <path d="M 50 100
+           A 50 50 0 0 1 100 30
+           Z" 
+        stroke="black"
+        fill="indianred"/>
+
+
+</svg> 
+ 
+<svg height="300" width="300">
+  <path d="M 0 100
+           L 0 100 100 100
+           A 10 20 0 0 1 200 100
+           V 250
+           H 150
+           A 5 15 0 1 0 150 150
+           Z
+           " 
+        fill="transparent"
+        stroke-width="3"
+        stroke="black"/>
+</svg>
+</body>
+</html>
+

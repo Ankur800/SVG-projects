@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+svg {
+    height: 100vh;
+    width: 100vw;
+}
+
+#spaceship {
+    animation: spaceship 10s ease-in-out;
+}
+
+@keyframes spaceship {
+    0%,
+    100% {
+        transform: translateY(-400px);
+    }
+    30%,
+    70% {
+        transform: translateY(50px);
+    }
+}
+
+#rays {
+    animation: rays 10s linear;
+    transform: translateY(50px);
+}
+
+@keyframes rays {
+    0%,
+    30% {
+        opacity: 0;
+    }
+    35%,
+    45%,
+    55%,
+    65% {
+        opacity: 1;
+        fill: red;
+    }
+    40%,
+    50%,
+    60% {
+        fill: #6c63ff;
+    }
+    70%,
+    100% {
+        opacity: 0;
+    }
+}
+
+#char1 {
+    animation: char1 10s linear;
+}
+
+@keyframes char1 {
+    35% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-850px);
+    }
+}
+
+#c1-l-arm {
+    animation: c1LeftArm 10s linear;
+    transform-origin: right top;
+    transform-box: fill-box;
+}
+
+#c1-r-arm {
+    animation: c1RightArm 10s linear;
+    transform-origin: left top;
+    transform-box: fill-box;
+}
+
+@keyframes c1LeftArm {
+    35% {
+        transform: rotate(0);
+    }
+    40%,
+    100% {
+        transform: rotate(70deg);
+    }
+}
+
+@keyframes c1RightArm {
+    35% {
+        transform: rotate(0);
+    }
+    40%,
+    100% {
+        transform: rotate(-70deg);
+    }
+}
+
+#c1-l-leg,
+#c1-r-leg {
+    animation: c1Legs 10s linear;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes c1Legs {
+    35% {
+        transform: rotate(0);
+    }
+    40%,
+    44%,
+    48%,
+    52%,
+    56%,
+    60% {
+        transform: rotate(20deg);
+    }
+    42%,
+    46%,
+    50%,
+    54%,
+    58% {
+        transform: rotate(-20deg);
+    }
+}
+
+#c1-mouth {
+    animation: c1Mouth 10s linear;
+}
+
+@keyframes c1Mouth {
+    25%,
+    100% {
+        d: path(
+            'M321.784 685.569C322.238 688.067 321.682 690.643 320.238 692.73C318.793 694.818 316.578 696.246 314.08 696.701C311.583 697.156 309.007 696.599 306.919 695.155C304.831 693.71 303.403 691.495 302.948 688.998L302.945 688.979C302.003 683.777 307.298 683.442 312.5 682.5C317.702 681.558 320.842 680.367 321.784 685.569Z'
+        );
+    }
+}
+
+#c2-mouth {
+    animation: c2Mouth 10s linear;
+}
+
+@keyframes c2Mouth {
+    25%,
+    100% {
+        d: path(
+            'M542 703.394C545.314 703.394 548 700.708 548 697.394C548 694.08 545.814 694.5 542.5 694.5C539.186 694.5 536 694.08 536 697.394C536 700.708 538.686 703.394 542 703.394Z'
+        );
+    }
+}
+
+#c1-eye-i {
+    animation: c1Eye 10s linear;
+}
+
+@keyframes c1Eye {
+    25%,
+    100% {
+        transform: translate(-7px, -7px);
+    }
+}
+
+#c2-eye-i {
+    animation: c2Eye 10s linear;
+}
+
+@keyframes c2Eye {
+    25%,
+    100% {
+        transform: translate(1px, -4px);
+    }
+}
+
+#c2-l-arm {
+    animation: c2Arm 10s linear;
+    transform-origin: right;
+    transform-box: fill-box;
+}
+
+@keyframes c2Arm {
+    40% {
+        transform: rotate(0);
+    }
+    45%,
+    100% {
+        transform: rotate(70deg);
+    }
+}

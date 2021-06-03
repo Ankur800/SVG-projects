@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background: rgb(236, 161, 236);
+
+    animation: example 2s infinite alternate;
+}
+
+@keyframes example {
+    0% {
+        transform: translateX(-100px);
+    }
+    10% {
+        background: tomato;
+    }
+    30% {
+        border-radius: 50%;
+    }
+    40% {
+        border: 5px solid black;
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: translateY(100px);
+    }
+    70% {
+        transform: scale(2);
+    }
+    100% {
+        transform: translateX(100px) rotate(90deg);
+    }
+}
